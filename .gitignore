@@ -11,3 +11,9 @@
 
 pkg/
 src/
+
+.vscode/
+
+#script
+ac
+wa
