@@ -1,131 +1,130 @@
+@charset "UTF-8";
+/********************************************
+ *                                          *
+ *  ulostyle framework                      *
+ *  Version 0.0.1                           *
+ *  https://github.com/henryust12/ulostyle  *
+ *  Licensed under MIT Open Source          *
+ *                                          *
+ ********************************************/
+/* Reset css */
 *,
 ::before,
 ::after {
   box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-  border-color: currentColor;
+  background-repeat: no-repeat;
 }
 
 ::before,
 ::after {
-  --tw-content: "";
+  text-decoration: inherit;
+  vertical-align: inherit;
 }
 
-html {
+:where(:root) {
+  cursor: default;
   line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
+  overflow-wrap: break-word;
   -moz-tab-size: 4;
   tab-size: 4;
-  font-family: theme("fontFamily.sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
 }
 
-body {
+:where(body) {
   margin: 0;
-  line-height: inherit;
 }
 
-hr {
+:where(h1) {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+:where(dl, ol, ul) :where(dl, ol, ul) {
+  margin: 0;
+}
+
+:where(hr) {
+  color: inherit;
   height: 0;
-  color: inherit;
-  border-top-width: 1px;
 }
 
-abbr[title] {
-  text-decoration: underline dotted;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-code,
-kbd,
-samp,
-pre {
-  font-family: theme("fontFamily.mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
-  font-size: 1em;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-table {
-  text-indent: 0;
-  border-color: inherit;
-  border-collapse: collapse;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: inherit;
-  color: inherit;
-  margin: 0;
+:where(nav) :where(ol, ul) {
+  list-style-type: none;
   padding: 0;
 }
 
-button,
-select {
-  text-transform: none;
+:where(nav li)::before {
+  content: "​";
+  float: left;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
+:where(pre) {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  overflow: auto;
+}
+
+:where(abbr[title]) {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+:where(b, strong) {
+  font-weight: bolder;
+}
+
+:where(code, kbd, samp) {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+:where(small) {
+  font-size: 80%;
+}
+
+:where(audio, canvas, iframe, img, svg, video) {
+  vertical-align: middle;
+}
+
+:where(iframe) {
+  border-style: none;
+}
+
+:where(svg:not([fill])) {
+  fill: currentColor;
+}
+
+:where(table) {
+  border-collapse: collapse;
+  border-color: inherit;
+  text-indent: 0;
+}
+
+:where(button, input, select) {
+  margin: 0;
+}
+
+:where(button, [type="button" i], [type="reset" i], [type="submit" i]) {
   -webkit-appearance: button;
-  background-color: transparent;
-  background-image: none;
 }
 
-:-moz-focusring {
-  outline: auto;
+:where(fieldset) {
+  border: 1px solid #a0a0a0;
 }
 
-:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-progress {
+:where(progress) {
   vertical-align: baseline;
+}
+
+:where(textarea) {
+  margin: 0;
+  resize: vertical;
+}
+
+:where([type="search" i]) {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
 
 ::-webkit-inner-spin-button,
@@ -133,9 +132,9 @@ progress {
   height: auto;
 }
 
-[type=search] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
 }
 
 ::-webkit-search-decoration {
@@ -147,89 +146,142 @@ progress {
   font: inherit;
 }
 
-summary {
-  display: list-item;
+:where(dialog) {
+  background-color: white;
+  border: solid;
+  color: black;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
-  margin: 0;
-}
-
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-legend {
-  padding: 0;
-}
-
-ol,
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-input::placeholder,
-textarea::placeholder {
-  opacity: 1;
-  color: theme("colors.gray.400", #9ca3af);
-}
-
-button,
-[role=button] {
-  cursor: pointer;
-}
-
-:disabled {
-  cursor: default;
-}
-
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-  vertical-align: middle;
-}
-
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-[hidden] {
+:where(dialog:not([open])) {
   display: none;
 }
 
-body {
-  background-color: aqua;
+:where(details > summary:first-of-type) {
+  display: list-item;
 }
 
-.container {
-  margin: auto 10%;
+:where([aria-busy="true" i]) {
+  cursor: progress;
+}
+
+:where([aria-controls]) {
+  cursor: pointer;
+}
+
+:where([aria-disabled="true" i], [disabled]) {
+  cursor: not-allowed;
+}
+
+:where([aria-hidden="false" i][hidden]) {
+  display: initial;
+}
+
+:where([aria-hidden="false" i][hidden]:not(:focus)) {
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+:where(button, input, select, textarea) {
+  background-color: transparent;
+  border: 1px solid WindowFrame;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  padding: 0.25em 0.375em;
+}
+
+:where(select) {
+  appearance: none;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center/1em;
+  border-radius: 0;
+  padding-right: 1em;
+}
+
+:where(select[multiple]) {
+  background-image: none;
+}
+
+:where([type="color" i], [type="range" i]) {
+  border-width: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.kanvas {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1em 1em;
+  background-color: #1B7340;
+  color: #FDFCE5;
+}
+.kanvas p,
+.kanvas h1,
+.kanvas h2,
+.kanvas h3,
+.kanvas h4,
+.kanvas h5 {
+  margin-bottom: 1em;
+}
+
+.kanvas-100 {
+  width: 100%;
+  margin: auto;
+}
+
+.kepala {
+  width: 100%;
+  background-color: #9BB7D4;
+  color: #1B7340;
+  margin-top: -1px;
+  height: 50%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.kepala img {
+  width: 100%;
+  height: auto;
+}
+
+.kaki {
+  background-color: #090910;
+  color: #FEE440;
+  text-align: center;
+  padding: 2rem 0;
+}
+.kaki p {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+body {
+  padding-top: 0px;
 }
 
 /*# sourceMappingURL=ulostyle.css.map */
