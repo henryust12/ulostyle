@@ -1,8 +1,10 @@
 # ULOSTYLE
 
+![Github](https://img.shields.io/github/license/henryust12/ulostyle) ![Github](https://img.shields.io/github/issues/henryust12/ulostyle) ![Github](https://img.shields.io/github/forks/henryust12/ulostyle) ![Github](https://img.shields.io/github/stars/henryust12/ulostyle) 
 
 
-## _Adalah css framework karya anak bangsa 99% dengan bahasa Indonesia_   
+
+_Adalah css framework karya anak bangsa 99% dengan bahasa Indonesia_   
 
                 oooo                         .               oooo                
                 `888                       .o8               `888                
@@ -20,7 +22,6 @@
                        Licensed under MIT Open Source                            
 
 
-![Github](https://img.shields.io/github/license/henryust12/ulostyle) ![Github](https://img.shields.io/github/issues/henryust12/ulostyle) ![Github](https://img.shields.io/github/forks/henryust12/ulostyle) ![Github](https://img.shields.io/github/stars/henryust12/ulostyle) 
 
 ## Fitur
 
