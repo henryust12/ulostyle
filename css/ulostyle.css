@@ -1,13 +1,43 @@
 @charset "UTF-8";
-/********************************************
- *                                          *
- *  ulostyle framework                      *
- *  Version 0.0.1                           *
- *  https://github.com/henryust12/ulostyle  *
- *  Licensed under MIT Open Source          *
- *                                          *
- ********************************************/
-/* Reset css */
+/************************************************************************************
+*                                                                                   *
+*                 oooo                         .               oooo                 *
+*                 `888                       .o8               `888                 *
+*     oooo  oooo   888   .ooooo.   .oooo.o .o888oo oooo    ooo  888   .ooooo.       *
+*     `888  `888   888  d88' `88b d88(  "8   888    `88.  .8'   888  d88' `88b      *
+*      888   888   888  888   888 `"Y88b.    888     `88..8'    888  888ooo888      *
+*      888   888   888  888   888 o.  )88b   888 .    `888'     888  888    .o      *
+*      `V88V"V8P' o888o `Y8bod8P' 8""888P'   "888"     .8'     o888o `Y8bod8P'      *
+*                                                  .o..P'                           *
+*                                                  `Y8P'                            *    
+*                                                                                   *
+*                              ulostyle framework                                   *
+*                                Version 0.0.1                                      *
+*                    https://github.com/henryust12/ulostyle                         *
+*                        Licensed under MIT Open Source                             *
+*                                                                                   *
+************************************************************************************/
+:root {
+  --segar: #9BB7D4;
+  --hijau: #1B7340;
+  --salmon: #E9897E;
+  --biru: #0072B5;
+  --kuning: #FEE440;
+  --cokelat: #B55A30;
+  --hijau-susu: #A0DAA9;
+  --jingga: #F19828;
+  --pink: #D2386C;
+  --merah: #dc3545;
+  --ungu: #926AA6;
+  --gelap: #090910;
+  --terang: #FDFCE5;
+}
+
+/* 
+
+  Reset css 
+
+*/
 *,
 ::before,
 ::after {
@@ -232,56 +262,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0;
-}
-
-.kanvas {
-  width: 75%;
-  margin: 0 auto;
-  padding: 1em 1em;
-  background-color: #1B7340;
-  color: #FDFCE5;
-}
-.kanvas p,
-.kanvas h1,
-.kanvas h2,
-.kanvas h3,
-.kanvas h4,
-.kanvas h5 {
-  margin-bottom: 1em;
-}
-
-.kanvas-100 {
-  width: 100%;
-  margin: auto;
-}
-
-.kepala {
-  width: 100%;
-  background-color: #9BB7D4;
-  color: #1B7340;
-  margin-top: -1px;
-  height: 50%;
-  margin: 0 auto;
-  padding-bottom: 0;
-}
-.kepala img {
-  width: 100%;
-  height: auto;
-}
-
-.kaki {
-  background-color: #090910;
-  color: #FEE440;
-  text-align: center;
-  padding: 2rem 0;
-}
-.kaki p {
-  margin-top: 2rem;
-  padding-top: 2rem;
-}
-
-body {
-  padding-top: 0px;
 }
 
 /*# sourceMappingURL=ulostyle.css.map */

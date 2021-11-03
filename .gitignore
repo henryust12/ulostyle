@@ -23,3 +23,4 @@ copy
 *.css.map
 ulostyle.css.map
 /test/*
+main.scss
