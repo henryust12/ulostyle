@@ -19598,12 +19598,16 @@ p {
   color: #f8feff;
 }
 
-.huruf-besar {
+.teks-semua-besar {
   text-transform: uppercase;
 }
 
-.huruf-kecil {
+.teks-semua-kecil {
   text-transform: lowercase;
+}
+
+.huruf-kapital {
+  text-transform: capitalize;
 }
 
 .teks-garis-tengah {
