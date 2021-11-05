@@ -1012,6 +1012,68 @@ p {
   border-color: #607d8b;
 }
 
+:root {
+  --us-merah: #f44336;
+  --us-merahjambu: #e91e63;
+  --us-ungu: #9c27b0;
+  --us-ungupekat: #673ab7;
+  --us-indigo: #3f51b5;
+  --us-biru: #2196f3;
+  --us-birumuda: #03a9f4;
+  --us-cyan: #00bcd4;
+  --us-teal: #009688;
+  --us-hijau: #4caf50;
+  --us-hijaumuda: #8bc34a;
+  --us-lemon: #cddc39;
+  --us-kuning: #ffeb3b;
+  --us-amber: #ffc107;
+  --us-jingga: #ff9800;
+  --us-jinggapekat: #ff5722;
+  --us-cokelat: #795548;
+  --us-abuabu: #9e9e9e;
+  --us-abuabubiru: #607d8b;
+}
+
+:root {
+  --us-transparan: transparent;
+}
+
+.transparan-90 {
+  opacity: 0.1;
+}
+
+.transparan-80 {
+  opacity: 0.2;
+}
+
+.transparan-70 {
+  opacity: 0.3;
+}
+
+.transparan-60 {
+  opacity: 0.4;
+}
+
+.transparan-50 {
+  opacity: 0.5;
+}
+
+.transparan-40 {
+  opacity: 0.6;
+}
+
+.transparan-30 {
+  opacity: 0.7;
+}
+
+.transparan-20 {
+  opacity: 0.8;
+}
+
+.transparan-10 {
+  opacity: 0.9;
+}
+
 .bingkai-titik {
   border-style: dotted;
   border-width: 0.2rem;
@@ -19452,66 +19514,124 @@ p {
   border-radius: 50px;
 }
 
-:root {
-  --us-merah: #f44336;
-  --us-merahjambu: #e91e63;
-  --us-ungu: #9c27b0;
-  --us-ungupekat: #673ab7;
-  --us-indigo: #3f51b5;
-  --us-biru: #2196f3;
-  --us-birumuda: #03a9f4;
-  --us-cyan: #00bcd4;
-  --us-teal: #009688;
-  --us-hijau: #4caf50;
-  --us-hijaumuda: #8bc34a;
-  --us-lemon: #cddc39;
-  --us-kuning: #ffeb3b;
-  --us-amber: #ffc107;
-  --us-jingga: #ff9800;
-  --us-jinggapekat: #ff5722;
-  --us-cokelat: #795548;
-  --us-abuabu: #9e9e9e;
-  --us-abuabubiru: #607d8b;
+.teks-us-merah {
+  color: #f44336;
 }
 
-:root {
-  --us-transparan: transparent;
+.teks-us-merahjambu {
+  color: #e91e63;
 }
 
-.transparan-90 {
-  opacity: 0.1;
+.teks-us-ungu {
+  color: #9c27b0;
 }
 
-.transparan-80 {
-  opacity: 0.2;
+.teks-us-ungupekat {
+  color: #673ab7;
 }
 
-.transparan-70 {
-  opacity: 0.3;
+.teks-us-indigo {
+  color: #3f51b5;
 }
 
-.transparan-60 {
-  opacity: 0.4;
+.teks-us-biru {
+  color: #2196f3;
 }
 
-.transparan-50 {
-  opacity: 0.5;
+.teks-us-birumuda {
+  color: #03a9f4;
 }
 
-.transparan-40 {
-  opacity: 0.6;
+.teks-us-cyan {
+  color: #00bcd4;
 }
 
-.transparan-30 {
-  opacity: 0.7;
+.teks-us-teal {
+  color: #009688;
 }
 
-.transparan-20 {
-  opacity: 0.8;
+.teks-us-hijau {
+  color: #4caf50;
 }
 
-.transparan-10 {
-  opacity: 0.9;
+.teks-us-hijaumuda {
+  color: #8bc34a;
+}
+
+.teks-us-lemon {
+  color: #cddc39;
+}
+
+.teks-us-kuning {
+  color: #ffeb3b;
+}
+
+.teks-us-amber {
+  color: #ffc107;
+}
+
+.teks-us-jingga {
+  color: #ff9800;
+}
+
+.teks-us-jinggapekat {
+  color: #ff5722;
+}
+
+.teks-us-cokelat {
+  color: #795548;
+}
+
+.teks-us-abuabu {
+  color: #9e9e9e;
+}
+
+.teks-us-abuabubiru {
+  color: #607d8b;
+}
+
+.tekt-us-gelap {
+  color: #212529;
+}
+
+.teks-us-terang {
+  color: #f8feff;
+}
+
+.teks-besar-xxl {
+  font-size: xx-large;
+}
+
+.teks-besar-xl {
+  font-size: x-large;
+}
+
+.teks-besar-lagi {
+  font-size: larger;
+}
+
+.teks-besar {
+  font-size: large;
+}
+
+.teks-sedang {
+  font-size: medium;
+}
+
+.teks-kecil {
+  font-size: small;
+}
+
+.teks-kecil-lagi {
+  font-size: smaller;
+}
+
+.teks-kecil-xl {
+  font-size: x-small;
+}
+
+.teks-kecil-xxl {
+  font-size: xx-small;
 }
 
 * {
