@@ -19598,6 +19598,14 @@ p {
   color: #f8feff;
 }
 
+.huruf-besar {
+  text-transform: uppercase;
+}
+
+.huruf-kecil {
+  text-transform: lowercase;
+}
+
 .teks-besar-xxl {
   font-size: xx-large;
 }
