@@ -19606,6 +19606,18 @@ p {
   text-transform: lowercase;
 }
 
+.teks-garis-tengah {
+  text-decoration: line-through;
+}
+
+.teks-garis-atas {
+  text-decoration: overline;
+}
+
+.teks-garis-bawah {
+  text-decoration: underline;
+}
+
 .teks-besar-xxl {
   font-size: xx-large;
 }
