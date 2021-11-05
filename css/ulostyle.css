@@ -248,6 +248,10 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19872,6 +19876,22 @@ p {
 
 .teks-bayang-putih-us-putih {
   text-shadow: 2px 2px #fff;
+}
+
+.list-bulat {
+  list-style-type: circle;
+}
+
+.list-kotak {
+  list-style-type: square;
+}
+
+.list-huruf {
+  list-style-type: lower-alpha;
+}
+
+.list-romawi {
+  list-style-type: upper-roman;
 }
 
 .teks-besar-xxl {
