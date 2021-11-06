@@ -1168,6 +1168,14 @@ a {
   text-shadow: 2px 2px #607d8b;
 }
 
+.latar-us-gelap {
+  background-color: #212529;
+}
+
+.latar-us-putih {
+  background-color: #f8feff;
+}
+
 :root {
   --us-merah: #f44336;
   --us-merahjambu: #e91e63;
@@ -19870,11 +19878,11 @@ a {
   letter-spacing: -3px;
 }
 
-.teks-bayang-hitam-us-hitam {
-  text-shadow: 2px 2px;
+.teks-bayang-us-hitam {
+  text-shadow: 2px 2px #000;
 }
 
-.teks-bayang-putih-us-putih {
+.teks-bayang-us-putih {
   text-shadow: 2px 2px #fff;
 }
 
