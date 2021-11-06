@@ -20554,6 +20554,72 @@ a {
   font-size: xx-small;
 }
 
+.item-kiri-atas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item-kiri-tengah {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-kiri-bawah {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.item-tengah-atas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.item-tengah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-tengah-bawah {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.item-kanan-atas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.item-kanan-tengah {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item-kanan-bawah {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.kiri {
+  text-align: left;
+}
+
+.tengah {
+  text-align: center;
+}
+
+.kanan {
+  text-align: right;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20612,7 +20678,7 @@ body {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .grid-container {
-    grid-template-areas: "header header header header header header" "left left left left left left" "middle middle middle middle middle middle" "right right right right right right" "footer footer footer footer footer footer";
+    grid-template-areas: "header1 header1 header1 header1 header1 header1" "left1 left1 left1 left1 left1 left1" "middle1 middle1 middle1 middle1 middle1 middle1" "right1 right1 right1 right1 right1 right1" "footer1 footer1 footer1 footer1 footer1 footer1";
   }
 }
 * {
@@ -20673,7 +20739,7 @@ body {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .grid-container2 {
-    grid-template-areas: "header header header header header header" "left left left left left left" "middle middle middle middle middle middle" "right right right right right right" "footer footer footer footer footer footer";
+    grid-template-areas: "header2 header2 header2 header2 header2 header2" "left2 left2 left2 left2 left2 left2" "middle2 middle2 middle2 middle2 middle2 middle2" "right2 right2 right2 right2 right2 right2" "footer2 footer2 footer2 footer2 footer2 footer2";
   }
 }
 * {
