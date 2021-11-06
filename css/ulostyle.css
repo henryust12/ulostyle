@@ -332,6 +332,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-merah {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #f44336;
+}
+
+.form-gaya-1-us-merah ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-merah ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-merah ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #fccbc7;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-merah ul li .field-style:focus {
+  box-shadow: 0 0 5px #f77066;
+  border: 1px solid #fff8f7;
+}
+
+.form-gaya-1-us-merah ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-merah ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-merah ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-merah ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-merah ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-merah ul li input[type=button],
+.form-gaya-1-us-merah ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #f77066;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #f77066;
+  box-shadow: inset 0px 1px 0px 0px #f77066;
+  background-color: #f44336;
+  border: 1px solid #ea1c0d;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-merah ul li input[type=button]:hover,
+.form-gaya-1-us-merah ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #ea1c0d 5%, #f77066 100%);
+  background-color: #f44336;
+}
+
 .teks-bayang-us-merah {
   text-shadow: 2px 2px #f44336;
 }
@@ -410,6 +492,88 @@ a {
   text-align: left;
   background-color: #e91e63;
   color: #f8feff;
+}
+
+.form-gaya-1-us-merahjambu {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #e91e63;
+}
+
+.form-gaya-1-us-merahjambu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-merahjambu ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-merahjambu ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #f7a9c4;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-merahjambu ul li .field-style:focus {
+  box-shadow: 0 0 5px #ee4c83;
+  border: 1px solid #fbd8e4;
+}
+
+.form-gaya-1-us-merahjambu ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-merahjambu ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-merahjambu ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-merahjambu ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-merahjambu ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-merahjambu ul li input[type=button],
+.form-gaya-1-us-merahjambu ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ee4c83;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ee4c83;
+  box-shadow: inset 0px 1px 0px 0px #ee4c83;
+  background-color: #e91e63;
+  border: 1px solid #c1134e;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-merahjambu ul li input[type=button]:hover,
+.form-gaya-1-us-merahjambu ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #c1134e 5%, #ee4c83 100%);
+  background-color: #e91e63;
 }
 
 .teks-bayang-us-merahjambu {
@@ -492,6 +656,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-ungu {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #9c27b0;
+}
+
+.form-gaya-1-us-ungu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-ungu ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-ungu ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #d88be5;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-ungu ul li .field-style:focus {
+  box-shadow: 0 0 5px #bc37d3;
+  border: 1px solid #e6b5ee;
+}
+
+.form-gaya-1-us-ungu ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-ungu ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-ungu ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-ungu ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-ungu ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-ungu ul li input[type=button],
+.form-gaya-1-us-ungu ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #bc37d3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #bc37d3;
+  box-shadow: inset 0px 1px 0px 0px #bc37d3;
+  background-color: #9c27b0;
+  border: 1px solid #771e86;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-ungu ul li input[type=button]:hover,
+.form-gaya-1-us-ungu ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #771e86 5%, #bc37d3 100%);
+  background-color: #9c27b0;
+}
+
 .teks-bayang-us-ungu {
   text-shadow: 2px 2px #9c27b0;
 }
@@ -570,6 +816,88 @@ a {
   text-align: left;
   background-color: #673ab7;
   color: #f8feff;
+}
+
+.form-gaya-1-us-ungupekat {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #673ab7;
+}
+
+.form-gaya-1-us-ungupekat ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-ungupekat ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-ungupekat ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #bda7e3;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-ungupekat ul li .field-style:focus {
+  box-shadow: 0 0 5px #8259cb;
+  border: 1px solid #daceef;
+}
+
+.form-gaya-1-us-ungupekat ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-ungupekat ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-ungupekat ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-ungupekat ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-ungupekat ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-ungupekat ul li input[type=button],
+.form-gaya-1-us-ungupekat ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #8259cb;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #8259cb;
+  box-shadow: inset 0px 1px 0px 0px #8259cb;
+  background-color: #673ab7;
+  border: 1px solid #512e90;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-ungupekat ul li input[type=button]:hover,
+.form-gaya-1-us-ungupekat ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #512e90 5%, #8259cb 100%);
+  background-color: #673ab7;
 }
 
 .teks-bayang-us-ungupekat {
@@ -652,6 +980,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-indigo {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #3f51b5;
+}
+
+.form-gaya-1-us-indigo ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-indigo ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-indigo ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #abb4e2;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-indigo ul li .field-style:focus {
+  box-shadow: 0 0 5px #606fc7;
+  border: 1px solid #d1d6ef;
+}
+
+.form-gaya-1-us-indigo ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-indigo ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-indigo ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-indigo ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-indigo ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-indigo ul li input[type=button],
+.form-gaya-1-us-indigo ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #606fc7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #606fc7;
+  box-shadow: inset 0px 1px 0px 0px #606fc7;
+  background-color: #3f51b5;
+  border: 1px solid #32408f;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-indigo ul li input[type=button]:hover,
+.form-gaya-1-us-indigo ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #32408f 5%, #606fc7 100%);
+  background-color: #3f51b5;
+}
+
 .teks-bayang-us-indigo {
   text-shadow: 2px 2px #3f51b5;
 }
@@ -730,6 +1140,88 @@ a {
   text-align: left;
   background-color: #2196f3;
   color: #f8feff;
+}
+
+.form-gaya-1-us-biru {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #2196f3;
+}
+
+.form-gaya-1-us-biru ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-biru ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-biru ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b2dbfb;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-biru ul li .field-style:focus {
+  box-shadow: 0 0 5px #51adf6;
+  border: 1px solid #e3f2fd;
+}
+
+.form-gaya-1-us-biru ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-biru ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-biru ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-biru ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-biru ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-biru ul li input[type=button],
+.form-gaya-1-us-biru ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #51adf6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #51adf6;
+  box-shadow: inset 0px 1px 0px 0px #51adf6;
+  background-color: #2196f3;
+  border: 1px solid #0c7cd5;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-biru ul li input[type=button]:hover,
+.form-gaya-1-us-biru ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #0c7cd5 5%, #51adf6 100%);
+  background-color: #2196f3;
 }
 
 .teks-bayang-us-biru {
@@ -812,6 +1304,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-birumuda {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #03a9f4;
+}
+
+.form-gaya-1-us-birumuda ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-birumuda ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-birumuda ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #92dcfe;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-birumuda ul li .field-style:focus {
+  box-shadow: 0 0 5px #2ebcfc;
+  border: 1px solid #c5ecfe;
+}
+
+.form-gaya-1-us-birumuda ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-birumuda ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-birumuda ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-birumuda ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-birumuda ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-birumuda ul li input[type=button],
+.form-gaya-1-us-birumuda ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #2ebcfc;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #2ebcfc;
+  box-shadow: inset 0px 1px 0px 0px #2ebcfc;
+  background-color: #03a9f4;
+  border: 1px solid #0286c2;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-birumuda ul li input[type=button]:hover,
+.form-gaya-1-us-birumuda ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #0286c2 5%, #2ebcfc 100%);
+  background-color: #03a9f4;
+}
+
 .teks-bayang-us-birumuda {
   text-shadow: 2px 2px #03a9f4;
 }
@@ -890,6 +1464,88 @@ a {
   text-align: left;
   background-color: #00bcd4;
   color: #f8feff;
+}
+
+.form-gaya-1-us-cyan {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #00bcd4;
+}
+
+.form-gaya-1-us-cyan ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-cyan ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-cyan ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #6eefff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-cyan ul li .field-style:focus {
+  box-shadow: 0 0 5px #08e3ff;
+  border: 1px solid #a1f4ff;
+}
+
+.form-gaya-1-us-cyan ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-cyan ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-cyan ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-cyan ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-cyan ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-cyan ul li input[type=button],
+.form-gaya-1-us-cyan ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #08e3ff;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #08e3ff;
+  box-shadow: inset 0px 1px 0px 0px #08e3ff;
+  background-color: #00bcd4;
+  border: 1px solid #008fa1;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-cyan ul li input[type=button]:hover,
+.form-gaya-1-us-cyan ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #008fa1 5%, #08e3ff 100%);
+  background-color: #00bcd4;
 }
 
 .teks-bayang-us-cyan {
@@ -972,6 +1628,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-teal {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #009688;
+}
+
+.form-gaya-1-us-teal ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-teal ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-teal ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #30ffec;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-teal ul li .field-style:focus {
+  box-shadow: 0 0 5px #00c9b6;
+  border: 1px solid #63fff0;
+}
+
+.form-gaya-1-us-teal ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-teal ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-teal ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-teal ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-teal ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-teal ul li input[type=button],
+.form-gaya-1-us-teal ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #00c9b6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #00c9b6;
+  box-shadow: inset 0px 1px 0px 0px #00c9b6;
+  background-color: #009688;
+  border: 1px solid #00635a;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-teal ul li input[type=button]:hover,
+.form-gaya-1-us-teal ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #00635a 5%, #00c9b6 100%);
+  background-color: #009688;
+}
+
 .teks-bayang-us-teal {
   text-shadow: 2px 2px #009688;
 }
@@ -1052,6 +1790,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-hijau {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #4caf50;
+}
+
+.form-gaya-1-us-hijau ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-hijau ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-hijau ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b5dfb7;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-hijau ul li .field-style:focus {
+  box-shadow: 0 0 5px #6ec071;
+  border: 1px solid #d9eeda;
+}
+
+.form-gaya-1-us-hijau ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-hijau ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-hijau ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-hijau ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-hijau ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-hijau ul li input[type=button],
+.form-gaya-1-us-hijau ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #6ec071;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #6ec071;
+  box-shadow: inset 0px 1px 0px 0px #6ec071;
+  background-color: #4caf50;
+  border: 1px solid #3d8b40;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-hijau ul li input[type=button]:hover,
+.form-gaya-1-us-hijau ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #3d8b40 5%, #6ec071 100%);
+  background-color: #4caf50;
+}
+
 .teks-bayang-us-hijau {
   text-shadow: 2px 2px #4caf50;
 }
@@ -1130,6 +1950,88 @@ a {
   text-align: left;
   background-color: #8bc34a;
   color: #f8feff;
+}
+
+.form-gaya-1-us-hijaumuda {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #8bc34a;
+}
+
+.form-gaya-1-us-hijaumuda ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-hijaumuda ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-hijaumuda ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #d5e9bd;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-hijaumuda ul li .field-style:focus {
+  box-shadow: 0 0 5px #a4d070;
+  border: 1px solid #edf6e3;
+}
+
+.form-gaya-1-us-hijaumuda ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-hijaumuda ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-hijaumuda ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-hijaumuda ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-hijaumuda ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-hijaumuda ul li input[type=button],
+.form-gaya-1-us-hijaumuda ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #a4d070;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #a4d070;
+  box-shadow: inset 0px 1px 0px 0px #a4d070;
+  background-color: #8bc34a;
+  border: 1px solid #71a436;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-hijaumuda ul li input[type=button]:hover,
+.form-gaya-1-us-hijaumuda ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #71a436 5%, #a4d070 100%);
+  background-color: #8bc34a;
 }
 
 .teks-bayang-us-hijaumuda {
@@ -1214,6 +2116,89 @@ a {
   color: #212529;
 }
 
+.form-gaya-1-us-lemon {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #cddc39;
+}
+
+.form-gaya-1-us-lemon ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-lemon ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-lemon ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #eef3bb;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-lemon ul li .field-style:focus {
+  box-shadow: 0 0 5px #d8e464;
+  border: 1px solid #f9fbe6;
+}
+
+.form-gaya-1-us-lemon ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-lemon ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-lemon ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-lemon ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-lemon ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-lemon ul li input[type=button],
+.form-gaya-1-us-lemon ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #d8e464;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #d8e464;
+  box-shadow: inset 0px 1px 0px 0px #d8e464;
+  background-color: #cddc39;
+  border: 1px solid #b2c022;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  color: #212529;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-lemon ul li input[type=button]:hover,
+.form-gaya-1-us-lemon ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #b2c022 5%, #d8e464 100%);
+  background-color: #cddc39;
+}
+
 .teks-bayang-us-lemon {
   text-shadow: 2px 2px #cddc39;
 }
@@ -1294,6 +2279,89 @@ a {
   background-color: #ffeb3b;
   color: #f8feff;
   color: #212529;
+}
+
+.form-gaya-1-us-kuning {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #ffeb3b;
+}
+
+.form-gaya-1-us-kuning ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-kuning ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-kuning ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #fffbd4;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-kuning ul li .field-style:focus {
+  box-shadow: 0 0 5px #fff06e;
+  border: 1px solid white;
+}
+
+.form-gaya-1-us-kuning ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-kuning ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-kuning ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-kuning ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-kuning ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-kuning ul li input[type=button],
+.form-gaya-1-us-kuning ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fff06e;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fff06e;
+  box-shadow: inset 0px 1px 0px 0px #fff06e;
+  background-color: #ffeb3b;
+  border: 1px solid #ffe608;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  color: #212529;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-kuning ul li input[type=button]:hover,
+.form-gaya-1-us-kuning ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #ffe608 5%, #fff06e 100%);
+  background-color: #ffeb3b;
 }
 
 .teks-bayang-us-kuning {
@@ -1378,6 +2446,89 @@ a {
   color: #212529;
 }
 
+.form-gaya-1-us-amber {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #ffc107;
+}
+
+.form-gaya-1-us-amber ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-amber ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-amber ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ffe7a0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-amber ul li .field-style:focus {
+  box-shadow: 0 0 5px #ffce3a;
+  border: 1px solid #fff4d3;
+}
+
+.form-gaya-1-us-amber ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-amber ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-amber ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-amber ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-amber ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-amber ul li input[type=button],
+.form-gaya-1-us-amber ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ffce3a;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ffce3a;
+  box-shadow: inset 0px 1px 0px 0px #ffce3a;
+  background-color: #ffc107;
+  border: 1px solid #d39e00;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  color: #212529;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-amber ul li input[type=button]:hover,
+.form-gaya-1-us-amber ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #d39e00 5%, #ffce3a 100%);
+  background-color: #ffc107;
+}
+
 .teks-bayang-us-amber {
   text-shadow: 2px 2px #ffc107;
 }
@@ -1456,6 +2607,88 @@ a {
   text-align: left;
   background-color: #ff9800;
   color: #f8feff;
+}
+
+.form-gaya-1-us-jingga {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #ff9800;
+}
+
+.form-gaya-1-us-jingga ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-jingga ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-jingga ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ffd699;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-jingga ul li .field-style:focus {
+  box-shadow: 0 0 5px #ffad33;
+  border: 1px solid #ffeacc;
+}
+
+.form-gaya-1-us-jingga ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-jingga ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-jingga ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-jingga ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-jingga ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-jingga ul li input[type=button],
+.form-gaya-1-us-jingga ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ffad33;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ffad33;
+  box-shadow: inset 0px 1px 0px 0px #ffad33;
+  background-color: #ff9800;
+  border: 1px solid #cc7a00;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-jingga ul li input[type=button]:hover,
+.form-gaya-1-us-jingga ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #cc7a00 5%, #ffad33 100%);
+  background-color: #ff9800;
 }
 
 .teks-bayang-us-jingga {
@@ -1538,6 +2771,88 @@ a {
   color: #f8feff;
 }
 
+.form-gaya-1-us-jinggapekat {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #ff5722;
+}
+
+.form-gaya-1-us-jinggapekat ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-jinggapekat ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-jinggapekat ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ffcbbb;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-jinggapekat ul li .field-style:focus {
+  box-shadow: 0 0 5px #ff7e55;
+  border: 1px solid #fff2ee;
+}
+
+.form-gaya-1-us-jinggapekat ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-jinggapekat ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-jinggapekat ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-jinggapekat ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-jinggapekat ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-jinggapekat ul li input[type=button],
+.form-gaya-1-us-jinggapekat ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ff7e55;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ff7e55;
+  box-shadow: inset 0px 1px 0px 0px #ff7e55;
+  background-color: #ff5722;
+  border: 1px solid #ee3900;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-jinggapekat ul li input[type=button]:hover,
+.form-gaya-1-us-jinggapekat ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #ee3900 5%, #ff7e55 100%);
+  background-color: #ff5722;
+}
+
 .teks-bayang-us-jinggapekat {
   text-shadow: 2px 2px #ff5722;
 }
@@ -1616,6 +2931,88 @@ a {
   text-align: left;
   background-color: #795548;
   color: #f8feff;
+}
+
+.form-gaya-1-us-cokelat {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #795548;
+}
+
+.form-gaya-1-us-cokelat ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-cokelat ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-cokelat ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #c2a398;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-cokelat ul li .field-style:focus {
+  box-shadow: 0 0 5px #996b5b;
+  border: 1px solid #d5c0b8;
+}
+
+.form-gaya-1-us-cokelat ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-cokelat ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-cokelat ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-cokelat ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-cokelat ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-cokelat ul li input[type=button],
+.form-gaya-1-us-cokelat ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #996b5b;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #996b5b;
+  box-shadow: inset 0px 1px 0px 0px #996b5b;
+  background-color: #795548;
+  border: 1px solid #593f35;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-cokelat ul li input[type=button]:hover,
+.form-gaya-1-us-cokelat ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #593f35 5%, #996b5b 100%);
+  background-color: #795548;
 }
 
 .teks-bayang-us-cokelat {
@@ -1700,6 +3097,89 @@ a {
   color: #212529;
 }
 
+.form-gaya-1-us-abuabu {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #9e9e9e;
+}
+
+.form-gaya-1-us-abuabu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-abuabu ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-abuabu ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-abuabu ul li .field-style:focus {
+  box-shadow: 0 0 5px #b8b8b8;
+  border: 1px solid white;
+}
+
+.form-gaya-1-us-abuabu ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-abuabu ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-abuabu ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-abuabu ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-abuabu ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-abuabu ul li input[type=button],
+.form-gaya-1-us-abuabu ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #b8b8b8;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #b8b8b8;
+  box-shadow: inset 0px 1px 0px 0px #b8b8b8;
+  background-color: #9e9e9e;
+  border: 1px solid #858585;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  color: #212529;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-abuabu ul li input[type=button]:hover,
+.form-gaya-1-us-abuabu ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #858585 5%, #b8b8b8 100%);
+  background-color: #9e9e9e;
+}
+
 .teks-bayang-us-abuabu {
   text-shadow: 2px 2px #9e9e9e;
 }
@@ -1778,6 +3258,88 @@ a {
   text-align: left;
   background-color: #607d8b;
   color: #f8feff;
+}
+
+.form-gaya-1-us-abuabubiru {
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #607d8b;
+}
+
+.form-gaya-1-us-abuabubiru ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form-gaya-1-us-abuabubiru ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.form-gaya-1-us-abuabubiru ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b7c6cd;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-gaya-1-us-abuabubiru ul li .field-style:focus {
+  box-shadow: 0 0 5px #7b96a3;
+  border: 1px solid #d5dee2;
+}
+
+.form-gaya-1-us-abuabubiru ul li .field-split {
+  width: 49%;
+}
+
+.form-gaya-1-us-abuabubiru ul li .field-full {
+  width: 100%;
+}
+
+.form-gaya-1-us-abuabubiru ul li input.align-left {
+  float: left;
+}
+
+.form-gaya-1-us-abuabubiru ul li input.align-right {
+  float: right;
+}
+
+.form-gaya-1-us-abuabubiru ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-gaya-1-us-abuabubiru ul li input[type=button],
+.form-gaya-1-us-abuabubiru ul li input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #7b96a3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #7b96a3;
+  box-shadow: inset 0px 1px 0px 0px #7b96a3;
+  background-color: #607d8b;
+  border: 1px solid #4b626d;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.form-gaya-1-us-abuabubiru ul li input[type=button]:hover,
+.form-gaya-1-us-abuabubiru ul li input[type=submit]:hover {
+  background: linear-gradient(to bottom, #4b626d 5%, #7b96a3 100%);
+  background-color: #607d8b;
 }
 
 .teks-bayang-us-abuabubiru {
