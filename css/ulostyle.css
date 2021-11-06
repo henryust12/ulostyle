@@ -3346,7 +3346,7 @@ a {
   text-shadow: 2px 2px #607d8b;
 }
 
-.latar-us-gelap {
+.latar-us-hitam {
   background-color: #212529;
 }
 
@@ -22114,6 +22114,55 @@ a {
 
 .teks-kecil-xxl {
   font-size: xx-small;
+}
+
+.tombol, .tombol-daun, .tombol-mati, .tombol-bayang-2, .tombol-bayang-1, .tombol-klik {
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.tombol:hover, .tombol-daun:hover, .tombol-mati:hover, .tombol-bayang-2:hover, .tombol-bayang-1:hover, .tombol-klik:hover {
+  opacity: 0.7;
+}
+
+.tombol-klik:active {
+  box-shadow: 0 5px #212529;
+  transform: translateY(-4px);
+}
+
+.tombol-bayang-1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tombol-bayang-2 {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tombol-mati {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tombol-daun {
+  border-radius: 50% 10%/90%;
+}
+
+.kelompok-tombol-horizontal .tombol, .kelompok-tombol-horizontal .tombol-klik, .kelompok-tombol-horizontal .tombol-bayang-1, .kelompok-tombol-horizontal .tombol-bayang-2, .kelompok-tombol-horizontal .tombol-mati, .kelompok-tombol-horizontal .tombol-daun {
+  float: left;
+  border: 1px solid #212529;
+  margin: 0;
+}
+
+.kelompok-tombol-horizontal .tombol:last-child, .kelompok-tombol-horizontal .tombol-klik:last-child, .kelompok-tombol-horizontal .tombol-bayang-1:last-child, .kelompok-tombol-horizontal .tombol-bayang-2:last-child, .kelompok-tombol-horizontal .tombol-mati:last-child, .kelompok-tombol-horizontal .tombol-daun:last-child {
+  float: none;
+}
+
+.kelompok-tombol-vertikal .tombol, .kelompok-tombol-vertikal .tombol-klik, .kelompok-tombol-vertikal .tombol-bayang-1, .kelompok-tombol-vertikal .tombol-bayang-2, .kelompok-tombol-vertikal .tombol-mati, .kelompok-tombol-vertikal .tombol-daun {
+  display: block;
+  border: 1px solid #212529;
+  margin: 0;
 }
 
 .item-kiri-atas {
