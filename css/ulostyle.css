@@ -22125,53 +22125,34 @@ a {
   font-size: xx-small;
 }
 
-.tombol, .tombol-daun, .tombol-mati, .tombol-bayang-2, .tombol-bayang-1, .tombol-klik {
-  border: none;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.tombol:hover, .tombol-daun:hover, .tombol-mati:hover, .tombol-bayang-2:hover, .tombol-bayang-1:hover, .tombol-klik:hover {
-  opacity: 0.7;
+.kolom-1 {
+  columns: 1;
+  column-gap: 40px;
+  column-rule: 1px solid #9e9e9e;
 }
 
-.tombol-klik:active {
-  box-shadow: 0 5px #212529;
-  transform: translateY(-4px);
+.kolom-2 {
+  columns: 2;
+  column-gap: 40px;
+  column-rule: 1px solid #9e9e9e;
 }
 
-.tombol-bayang-1 {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.kolom-3 {
+  columns: 3;
+  column-gap: 40px;
+  column-rule: 1px solid #9e9e9e;
 }
 
-.tombol-bayang-2 {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+.kolom-4 {
+  columns: 4;
+  column-gap: 40px;
+  column-rule: 1px solid #9e9e9e;
 }
 
-.tombol-mati {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.tombol-daun {
-  border-radius: 50% 10%/90%;
-}
-
-.kelompok-tombol-horizontal .tombol, .kelompok-tombol-horizontal .tombol-klik, .kelompok-tombol-horizontal .tombol-bayang-1, .kelompok-tombol-horizontal .tombol-bayang-2, .kelompok-tombol-horizontal .tombol-mati, .kelompok-tombol-horizontal .tombol-daun {
-  float: left;
-  border: 1px solid #212529;
-  margin: 0;
-}
-
-.kelompok-tombol-horizontal .tombol:last-child, .kelompok-tombol-horizontal .tombol-klik:last-child, .kelompok-tombol-horizontal .tombol-bayang-1:last-child, .kelompok-tombol-horizontal .tombol-bayang-2:last-child, .kelompok-tombol-horizontal .tombol-mati:last-child, .kelompok-tombol-horizontal .tombol-daun:last-child {
-  float: none;
-}
-
-.kelompok-tombol-vertikal .tombol, .kelompok-tombol-vertikal .tombol-klik, .kelompok-tombol-vertikal .tombol-bayang-1, .kelompok-tombol-vertikal .tombol-bayang-2, .kelompok-tombol-vertikal .tombol-mati, .kelompok-tombol-vertikal .tombol-daun {
-  display: block;
-  border: 1px solid #212529;
-  margin: 0;
+.kolom-5 {
+  columns: 5;
+  column-gap: 40px;
+  column-rule: 1px solid #9e9e9e;
 }
 
 .item-kiri-atas {
