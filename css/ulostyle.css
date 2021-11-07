@@ -22125,36 +22125,66 @@ a {
   font-size: xx-small;
 }
 
-.kolom-1 {
+.teks-kolom-1 {
   columns: 1;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
 }
 
-.kolom-2 {
+.teks-kolom-2 {
   columns: 2;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
 }
 
-.kolom-3 {
+.teks-kolom-3 {
   columns: 3;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
 }
 
-.kolom-4 {
+.teks-kolom-4 {
   columns: 4;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
 }
 
-.kolom-5 {
+.teks-kolom-5 {
   columns: 5;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
 }
 
+@media screen and (min-width: 0) {
+  .kotak {
+    background-color: #f44336;
+  }
+}
+@media screen and (min-width: 640px) {
+  .kotak {
+    background-color: #795548;
+  }
+}
+@media screen and (min-width: 768px) {
+  .kotak {
+    background-color: #2196f3;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .kotak {
+    background-color: #e91e63;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .kotak {
+    background-color: #9c27b0;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .kotak {
+    background-color: #ffeb3b;
+  }
+}
 .item-kiri-atas {
   display: flex;
   justify-content: flex-start;
@@ -22219,381 +22249,6 @@ a {
 
 .kanan {
   text-align: right;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-.header1 {
-  grid-area: header;
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* The grid container */
-.grid-container1 {
-  display: grid;
-  grid-template-areas: "header header header header header header" "left left middle middle right right" "footer footer footer footer footer footer";
-  /* grid-column-gap: 10px; - if you want gap between the columns */
-}
-
-.left1,
-.middle1,
-.right1 {
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
-}
-
-/* Style the left column */
-.left1 {
-  grid-area: left;
-}
-
-/* Style the middle column */
-.middle1 {
-  grid-area: middle;
-}
-
-/* Style the right column */
-.right1 {
-  grid-area: right;
-}
-
-/* Style the footer */
-.footer1 {
-  grid-area: footer;
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .grid-container {
-    grid-template-areas: "header1 header1 header1 header1 header1 header1" "left1 left1 left1 left1 left1 left1" "middle1 middle1 middle1 middle1 middle1 middle1" "right1 right1 right1 right1 right1 right1" "footer1 footer1 footer1 footer1 footer1 footer1";
-  }
-}
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-.header2 {
-  grid-area: header;
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* The grid container */
-.grid-container2 {
-  display: grid;
-  grid-template-areas: "header header header header header header" "left middle middle middle middle right" "footer footer footer footer footer footer";
-  /* grid-column-gap: 10px; - if you want gap between the columns */
-}
-
-.left2,
-.middle2,
-.right2 {
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
-}
-
-/* Style the left column */
-.left2 {
-  grid-area: left;
-}
-
-/* Style the middle column */
-.middle2 {
-  grid-area: middle;
-}
-
-/* Style the right column */
-.right2 {
-  grid-area: right;
-}
-
-/* Style the footer */
-.footer2 {
-  grid-area: footer;
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .grid-container2 {
-    grid-template-areas: "header2 header2 header2 header2 header2 header2" "left2 left2 left2 left2 left2 left2" "middle2 middle2 middle2 middle2 middle2 middle2" "right2 right2 right2 right2 right2 right2" "footer2 footer2 footer2 footer2 footer2 footer2";
-  }
-}
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the top navigation bar */
-.topnav3 {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav3 a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav3 a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the content */
-.content3 {
-  background-color: #ddd;
-  padding: 10px;
-  height: 200px;
-  /* Should be removed. Only for demonstration */
-}
-
-/* Style the footer */
-.footer3 {
-  background-color: #f1f1f1;
-  padding: 10px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the side navigation */
-.sidenav4 {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-}
-
-/* Side navigation links */
-.sidenav4 a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color on hover */
-.sidenav4 a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the content */
-.content4 {
-  margin-left: 200px;
-  padding-left: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.bp-row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*=bp-col-] {
-  float: left;
-  padding: 15px;
-}
-
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-
-.bp-header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
-}
-
-.bp-menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.bp-menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.bp-menu li:hover {
-  background-color: #0099cc;
-}
-
-.bp-aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.bp-footer {
-  background-color: #0099cc;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
-}
-
-/* For mobile phones: */
-[class*=bp-col-] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .bp-col-s-1 {
-    width: 8.33%;
-  }
-
-  .bp-col-s-2 {
-    width: 16.66%;
-  }
-
-  .bp-col-s-3 {
-    width: 25%;
-  }
-
-  .bp-col-s-4 {
-    width: 33.33%;
-  }
-
-  .bp-col-s-5 {
-    width: 41.66%;
-  }
-
-  .bp-col-s-6 {
-    width: 50%;
-  }
-
-  .bp-col-s-7 {
-    width: 58.33%;
-  }
-
-  .bp-col-s-8 {
-    width: 66.66%;
-  }
-
-  .bp-col-s-9 {
-    width: 75%;
-  }
-
-  .bp-col-s-10 {
-    width: 83.33%;
-  }
-
-  .bp-col-s-11 {
-    width: 91.66%;
-  }
-
-  .bp-col-s-12 {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .bp-col-1 {
-    width: 8.33%;
-  }
-
-  .bp-col-2 {
-    width: 16.66%;
-  }
-
-  .bp-col-3 {
-    width: 25%;
-  }
-
-  .bp-col-4 {
-    width: 33.33%;
-  }
-
-  .bp-col-5 {
-    width: 41.66%;
-  }
-
-  .bp-col-6 {
-    width: 50%;
-  }
-
-  .bp-col-7 {
-    width: 58.33%;
-  }
-
-  .bp-col-8 {
-    width: 66.66%;
-  }
-
-  .bp-col-9 {
-    width: 75%;
-  }
-
-  .bp-col-10 {
-    width: 83.33%;
-  }
-
-  .bp-col-11 {
-    width: 91.66%;
-  }
-
-  .bp-col-12 {
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=ulostyle.css.map */
