@@ -253,30 +253,6 @@ h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h6 {
-  font-size: 0.875rem;
-}
-
 p {
   margin: 0;
 }
@@ -22228,6 +22204,88 @@ a {
   column-rule: 1px solid #9e9e9e;
 }
 
+/* default start*/
+.kontener {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-areas: "kepala" "badan" "kaki";
+  grid-template-rows: auto 1fr auto;
+}
+
+.kepala {
+  grid-area: kepala;
+  padding: 1rem;
+}
+
+/* ----------------------------- */
+.badan {
+  grid-area: badan;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.kelompok-kartu {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.kartu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+/* ----------------------------- */
+.kaki {
+  grid-area: kaki;
+  padding: 1rem;
+}
+
+/* ----------------------------- */
+/* default end*/
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .badan {
+    padding: 0;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .menu-samping-kiri {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+  }
+
+  .menu-samping-kanan {
+    display: grid;
+    grid-template-columns: 1fr minmax(150px, 25%);
+  }
+
+  .menu-samping-kiri-kanan {
+    display: grid;
+    grid-template-columns: minmax(130px, 25%) 1fr minmax(130px, 25%);
+  }
+}
+/* // Large devices (desktops, 992px and up) */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .badan {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 2560px) {
+  .badan {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 .item-kiri-atas {
   display: flex;
   justify-content: flex-start;
