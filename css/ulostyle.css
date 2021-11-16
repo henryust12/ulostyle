@@ -423,6 +423,45 @@ a {
   background-color: #f44336;
 }
 
+.navigasi-us-merah .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-merah .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-merah .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-merah ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f44336;
+}
+
+.navigasi-us-merah li {
+  float: left;
+}
+
+.navigasi-us-merah li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-merah {
   text-shadow: 2px 2px #f44336;
 }
@@ -583,6 +622,45 @@ a {
 .form-gaya-1-us-merahjambu ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #c1134e 5%, #ee4c83 100%);
   background-color: #e91e63;
+}
+
+.navigasi-us-merahjambu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-merahjambu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-merahjambu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-merahjambu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e91e63;
+}
+
+.navigasi-us-merahjambu li {
+  float: left;
+}
+
+.navigasi-us-merahjambu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-merahjambu {
@@ -747,6 +825,45 @@ a {
   background-color: #9c27b0;
 }
 
+.navigasi-us-ungu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-ungu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-ungu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-ungu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9c27b0;
+}
+
+.navigasi-us-ungu li {
+  float: left;
+}
+
+.navigasi-us-ungu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-ungu {
   text-shadow: 2px 2px #9c27b0;
 }
@@ -907,6 +1024,45 @@ a {
 .form-gaya-1-us-ungupekat ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #512e90 5%, #8259cb 100%);
   background-color: #673ab7;
+}
+
+.navigasi-us-ungupekat .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-ungupekat .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-ungupekat .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-ungupekat ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #673ab7;
+}
+
+.navigasi-us-ungupekat li {
+  float: left;
+}
+
+.navigasi-us-ungupekat li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-ungupekat {
@@ -1071,6 +1227,45 @@ a {
   background-color: #3f51b5;
 }
 
+.navigasi-us-indigo .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-indigo .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-indigo .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-indigo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3f51b5;
+}
+
+.navigasi-us-indigo li {
+  float: left;
+}
+
+.navigasi-us-indigo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-indigo {
   text-shadow: 2px 2px #3f51b5;
 }
@@ -1231,6 +1426,45 @@ a {
 .form-gaya-1-us-biru ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #0c7cd5 5%, #51adf6 100%);
   background-color: #2196f3;
+}
+
+.navigasi-us-biru .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-biru .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-biru .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-biru ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2196f3;
+}
+
+.navigasi-us-biru li {
+  float: left;
+}
+
+.navigasi-us-biru li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-biru {
@@ -1395,6 +1629,45 @@ a {
   background-color: #03a9f4;
 }
 
+.navigasi-us-birumuda .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-birumuda .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-birumuda .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-birumuda ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #03a9f4;
+}
+
+.navigasi-us-birumuda li {
+  float: left;
+}
+
+.navigasi-us-birumuda li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-birumuda {
   text-shadow: 2px 2px #03a9f4;
 }
@@ -1555,6 +1828,45 @@ a {
 .form-gaya-1-us-cyan ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #008fa1 5%, #08e3ff 100%);
   background-color: #00bcd4;
+}
+
+.navigasi-us-cyan .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-cyan .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-cyan .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-cyan ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00bcd4;
+}
+
+.navigasi-us-cyan li {
+  float: left;
+}
+
+.navigasi-us-cyan li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-cyan {
@@ -1719,6 +2031,45 @@ a {
   background-color: #009688;
 }
 
+.navigasi-us-teal .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-teal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-teal .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-teal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #009688;
+}
+
+.navigasi-us-teal li {
+  float: left;
+}
+
+.navigasi-us-teal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-teal {
   text-shadow: 2px 2px #009688;
 }
@@ -1881,6 +2232,45 @@ a {
   background-color: #4caf50;
 }
 
+.navigasi-us-hijau .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-hijau .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-hijau .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-hijau ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4caf50;
+}
+
+.navigasi-us-hijau li {
+  float: left;
+}
+
+.navigasi-us-hijau li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-hijau {
   text-shadow: 2px 2px #4caf50;
 }
@@ -2041,6 +2431,45 @@ a {
 .form-gaya-1-us-hijaumuda ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #71a436 5%, #a4d070 100%);
   background-color: #8bc34a;
+}
+
+.navigasi-us-hijaumuda .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-hijaumuda .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-hijaumuda .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-hijaumuda ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8bc34a;
+}
+
+.navigasi-us-hijaumuda li {
+  float: left;
+}
+
+.navigasi-us-hijaumuda li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-hijaumuda {
@@ -2208,6 +2637,46 @@ a {
   background-color: #cddc39;
 }
 
+.navigasi-us-lemon .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-lemon .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-lemon .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-lemon ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cddc39;
+}
+
+.navigasi-us-lemon li {
+  float: left;
+}
+
+.navigasi-us-lemon li a {
+  display: block;
+  color: white;
+  color: #212529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-lemon {
   text-shadow: 2px 2px #cddc39;
 }
@@ -2371,6 +2840,46 @@ a {
 .form-gaya-1-us-kuning ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #ffe608 5%, #fff06e 100%);
   background-color: #ffeb3b;
+}
+
+.navigasi-us-kuning .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-kuning .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-kuning .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-kuning ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffeb3b;
+}
+
+.navigasi-us-kuning li {
+  float: left;
+}
+
+.navigasi-us-kuning li a {
+  display: block;
+  color: white;
+  color: #212529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-kuning {
@@ -2538,6 +3047,46 @@ a {
   background-color: #ffc107;
 }
 
+.navigasi-us-amber .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-amber .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-amber .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-amber ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffc107;
+}
+
+.navigasi-us-amber li {
+  float: left;
+}
+
+.navigasi-us-amber li a {
+  display: block;
+  color: white;
+  color: #212529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-amber {
   text-shadow: 2px 2px #ffc107;
 }
@@ -2698,6 +3247,45 @@ a {
 .form-gaya-1-us-jingga ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #cc7a00 5%, #ffad33 100%);
   background-color: #ff9800;
+}
+
+.navigasi-us-jingga .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-jingga .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-jingga .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-jingga ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff9800;
+}
+
+.navigasi-us-jingga li {
+  float: left;
+}
+
+.navigasi-us-jingga li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-jingga {
@@ -2862,6 +3450,45 @@ a {
   background-color: #ff5722;
 }
 
+.navigasi-us-jinggapekat .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-jinggapekat .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-jinggapekat .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-jinggapekat ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff5722;
+}
+
+.navigasi-us-jinggapekat li {
+  float: left;
+}
+
+.navigasi-us-jinggapekat li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-jinggapekat {
   text-shadow: 2px 2px #ff5722;
 }
@@ -3022,6 +3649,45 @@ a {
 .form-gaya-1-us-cokelat ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #593f35 5%, #996b5b 100%);
   background-color: #795548;
+}
+
+.navigasi-us-cokelat .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-cokelat .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-cokelat .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-cokelat ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #795548;
+}
+
+.navigasi-us-cokelat li {
+  float: left;
+}
+
+.navigasi-us-cokelat li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-cokelat {
@@ -3189,6 +3855,46 @@ a {
   background-color: #9e9e9e;
 }
 
+.navigasi-us-abuabu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-abuabu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-abuabu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-abuabu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9e9e9e;
+}
+
+.navigasi-us-abuabu li {
+  float: left;
+}
+
+.navigasi-us-abuabu li a {
+  display: block;
+  color: white;
+  color: #212529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .teks-bayang-us-abuabu {
   text-shadow: 2px 2px #9e9e9e;
 }
@@ -3349,6 +4055,45 @@ a {
 .form-gaya-1-us-abuabubiru ul li input[type=submit]:hover {
   background: linear-gradient(to bottom, #4b626d 5%, #7b96a3 100%);
   background-color: #607d8b;
+}
+
+.navigasi-us-abuabubiru .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navigasi-us-abuabubiru .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8feff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9e9e9e;
+  padding: 1em 0.7em;
+  z-index: 1;
+}
+
+.navigasi-us-abuabubiru .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasi-us-abuabubiru ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #607d8b;
+}
+
+.navigasi-us-abuabubiru li {
+  float: left;
+}
+
+.navigasi-us-abuabubiru li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .teks-bayang-us-abuabubiru {
@@ -22202,6 +22947,16 @@ a {
   columns: 5;
   column-gap: 40px;
   column-rule: 1px solid #9e9e9e;
+}
+
+.gambar {
+  width: 100%;
+  height: auto;
+}
+
+.gambar-max-width {
+  max-width: 100%;
+  height: auto;
 }
 
 .kontener {
