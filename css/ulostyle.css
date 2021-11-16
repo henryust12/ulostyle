@@ -462,6 +462,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-merah li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-merah {
   text-shadow: 2px 2px #f44336;
 }
@@ -661,6 +665,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-merahjambu li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-merahjambu {
@@ -864,6 +872,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-ungu li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-ungu {
   text-shadow: 2px 2px #9c27b0;
 }
@@ -1063,6 +1075,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-ungupekat li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-ungupekat {
@@ -1266,6 +1282,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-indigo li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-indigo {
   text-shadow: 2px 2px #3f51b5;
 }
@@ -1465,6 +1485,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-biru li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-biru {
@@ -1668,6 +1692,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-birumuda li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-birumuda {
   text-shadow: 2px 2px #03a9f4;
 }
@@ -1867,6 +1895,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-cyan li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-cyan {
@@ -2070,6 +2102,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-teal li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-teal {
   text-shadow: 2px 2px #009688;
 }
@@ -2271,6 +2307,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-hijau li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-hijau {
   text-shadow: 2px 2px #4caf50;
 }
@@ -2470,6 +2510,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-hijaumuda li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-hijaumuda {
@@ -2677,6 +2721,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-lemon li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-lemon {
   text-shadow: 2px 2px #cddc39;
 }
@@ -2880,6 +2928,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-kuning li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-kuning {
@@ -3087,6 +3139,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-amber li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-amber {
   text-shadow: 2px 2px #ffc107;
 }
@@ -3286,6 +3342,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-jingga li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-jingga {
@@ -3489,6 +3549,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-jinggapekat li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-jinggapekat {
   text-shadow: 2px 2px #ff5722;
 }
@@ -3688,6 +3752,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-cokelat li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-cokelat {
@@ -3895,6 +3963,10 @@ a {
   text-decoration: none;
 }
 
+.navigasi-us-abuabu li a:hover {
+  background-color: #00000014;
+}
+
 .teks-bayang-us-abuabu {
   text-shadow: 2px 2px #9e9e9e;
 }
@@ -4094,6 +4166,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigasi-us-abuabubiru li a:hover {
+  background-color: #00000014;
 }
 
 .teks-bayang-us-abuabubiru {
