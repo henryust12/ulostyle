@@ -23301,7 +23301,7 @@ a {
   display: grid;
   grid-gap: 1rem;
   place-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template: auto;
 }
 
 .kartu {
@@ -23322,6 +23322,10 @@ a {
   }
 }
 @media (min-width: 768px) {
+  .kelompok-kartu {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
   .menu-samping-kiri {
     display: grid;
     grid-template-columns: minmax(150px, 25%) 1fr;
