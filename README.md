@@ -7,14 +7,29 @@
 _Adalah css framework karya anak bangsa 99% dengan bahasa Indonesia_   
 
 
-<img align="center" style="max-width: 200px; text-align: center;" src="Logo/1.png" alt="Logo">
+<p align="center">
+  <img src="Logo/1.png" alt="Logo">
+  <br>
+  ulostyle framework
+  <br>
+  Version 0.0.1
+  <br>
+  https://github.com/henryust12/ulostyle
+  <br>
+  Licensed under MIT Open Source
+  <br>
+</p>
                                                                                  
-                             ulostyle framework                                  
-                               Version 0.0.1                                     
-                   https://github.com/henryust12/ulostyle                        
-                       Licensed under MIT Open Source                            
+                                                               
+                                                                    
+                                           
+                                                   
 
 
+
+
+   
+   
 
 ## Fitur
 
