@@ -6,15 +6,8 @@
 
 _Adalah css framework karya anak bangsa 99% dengan bahasa Indonesia_   
 
-                oooo                         .               oooo                
-                `888                       .o8               `888                
-    oooo  oooo   888   .ooooo.   .oooo.o .o888oo oooo    ooo  888   .ooooo.      
-    `888  `888   888  d88' `88b d88(  "8   888    `88.  .8'   888  d88' `88b     
-     888   888   888  888   888 `"Y88b.    888     `88..8'    888  888ooo888     
-     888   888   888  888   888 o.  )88b   888 .    `888'     888  888    .o     
-     `V88V"V8P' o888o `Y8bod8P' 8""888P'   "888"     .8'     o888o `Y8bod8P'     
-                                                 .o..P'                          
-                                                 `Y8P'                           
+
+<img align="center" style="max-width: 200px; text-align: center;" src="Logo/1.png" alt="Logo">
                                                                                  
                              ulostyle framework                                  
                                Version 0.0.1                                     
