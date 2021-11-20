@@ -23286,7 +23286,6 @@ a {
 
 .kepala {
   grid-area: kepala;
-  padding: 1rem;
 }
 
 .badan {
@@ -23313,7 +23312,6 @@ a {
 
 .kaki {
   grid-area: kaki;
-  padding: 1rem;
 }
 
 @media (min-width: 576px) {
