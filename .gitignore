@@ -18,6 +18,7 @@ src/
 ac
 wa
 copy
+docs/copy
 
 #sassmap
 *.css.map
