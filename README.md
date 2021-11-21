@@ -8,7 +8,7 @@ _Adalah css framework karya anak bangsa 99% dengan bahasa Indonesia_
 
 
 <p align="center">
-  <img src="Logo/1.png" alt="Logo">
+  <img src="/docs/assets/images/Logo/1.png" alt="Logo">
   <br>
   ulostyle framework
   <br>
