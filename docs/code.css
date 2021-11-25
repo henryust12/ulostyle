@@ -1,0 +1,53 @@
+/* 
+oto=opentag_open -> <div
+otc=opentag_close -> >
+c=class -> class=
+cn=classname -> "latar-us-merah"
+t=teks
+ct=closetag -> </div>
+cbg=code background
+*/
+
+.cbg{
+    padding: 1em 1em;
+    background-color: #282a36;
+    color: #fff;
+}
+.c{
+    color: #fd76bc;
+}
+.cn{
+    color: #65d9ec;
+}
+
+.otc,.ct1,.ct2,.ct3,.ct4,.ct5{
+    color: #4dfa7a;
+}
+.oto1,.oto2,.oto3,.oto4,.oto5{
+    color: #4dfa7a;
+    margin-right: 4px;
+}
+.oto2{
+    margin-left: 1.6em;    
+}
+.oto3{
+    margin-left: 2.6em;    
+}
+.oto4{
+    margin-left: 3.6em;    
+}
+.oto5{
+    margin-left: 4.6em;    
+}
+.ct2{
+    margin-left: 1.6em;  
+}
+.ct3{
+    margin-left: 2.6em;  
+}
+.ct4{
+    margin-left: 3.6em;  
+}
+.ct5{
+    margin-left: 4.6em;  
+}

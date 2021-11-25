@@ -254,7 +254,7 @@ h6 {
 }
 
 p {
-  margin: 0;
+  margin: 2em 0;
 }
 
 a {
@@ -23320,6 +23320,11 @@ a {
   }
 }
 @media (min-width: 768px) {
+  .badan {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .kelompok-kartu {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
