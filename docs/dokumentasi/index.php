@@ -101,6 +101,14 @@
                                 <a href="./?page=test_test">Test</a>
                             </div>
                         </li>
+                        <hr>
+                        <li class="dropdown">
+                            <a class="dropbtn">Elemen</a>
+                            <div class="dropdown-content">
+                                <a href="./?page=warna_terang_dan_gelap">Warna</a>
+                            </div>
+                        </li>
+                        <hr>
                         <li><a href="./">Menu1</a></li>
                     </ul>
                 </div>
