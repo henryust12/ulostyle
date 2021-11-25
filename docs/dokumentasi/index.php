@@ -15,6 +15,10 @@
     <link rel="manifest" href="../assets/images/favicon/site.webmanifest">
     <title>Ulostyle - CSS framework buatan anak indonesia dan 99% berbahasa indonesia.</title>
     <style>
+        ul li{
+            list-style-type: none;
+        }
+
         .kontener img {
             max-width: 18em;
         }
@@ -27,8 +31,42 @@
         .kotak300 {
             max-width: 300px;
         }
-        .konten{
+
+        .konten {
             padding: .6em;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #ddd;
         }
     </style>
 </head>
@@ -56,19 +94,22 @@
             <div class="menu-samping-kiri">
                 <div class="menu-kiri latar-us-terang">
                     <ul>
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu1</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">Pendahuluan</a>
+                            <div class="dropdown-content">
+                                <a href="./?page=download">Download</a>
+                                <a href="./?page=test_test">Test</a>
+                            </div>
+                        </li>
+                        <li><a href="./">Menu1</a></li>
                     </ul>
                 </div>
                 <div class="konten">
-                    <p>
-                        <h3>Cara menginstall</h3>
-                        Kamu bisa mendownload file css pada link berikut: <br>
-                        <a href="#download"><button class="tombol latar-us-biru teks-us-gelap teks-besar">Tombol</button></a>
-                    </p>
+                    <?php
+                        if(isset($_GET['page'])){
+                            include 'html/'.$_GET['page'].'.php';
+                        }
+                    ?>
                 </div>
             </div>
         </div>
@@ -94,6 +135,9 @@
                 Dibuat dengan <span class="teks-us-merahjambu">&hearts;</span> dan Ulostyle</p>
         </div>
     </div>
+
+
+
 </body>
 
 </html>
